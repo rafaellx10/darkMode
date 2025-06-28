@@ -24,8 +24,8 @@ export default function Home() {
     return {
       backgroundColor: interpolateColor(
         themeAnimated.value,
-        [0, 1],
-        [THEME_COLORS.LIGHT.background, THEME_COLORS.DARK.background]
+        [0, 0.5, 1],
+        [THEME_COLORS.LIGHT.background, "#999", THEME_COLORS.DARK.background]
       ),
     };
   });

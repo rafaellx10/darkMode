@@ -11,7 +11,7 @@ export const ThemeProvider = ({ children }: { children: ReactNode }) => {
   const [isDark, setIsDark] = useState(false);
 
   const toggleTheme = () => {
-    console.log("Toggling theme");
+    // console.log("Toggling theme");
     setIsDark(!isDark);
   };
 
