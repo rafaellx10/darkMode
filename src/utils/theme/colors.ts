@@ -1,6 +1,6 @@
 export const THEME_COLORS = {
   LIGHT: {
-    background: "#fof0f0",
+    background: "#f0f0f0",
     text: "#000",
     flashyButton: "#011623",
     textFlashyButton: "#fff",
